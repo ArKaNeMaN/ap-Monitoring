@@ -2,6 +2,25 @@
 	"name": "Мониторинг",
 	"version": "1.0",
 	"author": "ArKaNeMaN",
-	"settPage": false,
-	"settTpl": false
+	"files": [
+		"lib/SourceQuery/BaseSocket.php",
+		"lib/SourceQuery/Buffer.php",
+		"lib/SourceQuery/Exception/AuthenticationException.php",
+		"lib/SourceQuery/Exception/InvalidArgumentException.php",
+		"lib/SourceQuery/Exception/InvalidPacketException.php",
+		"lib/SourceQuery/Exception/SocketException.php",
+		"lib/SourceQuery/Exception/SourceQueryException.php",
+		"lib/SourceQuery/GoldSourceRcon.php",
+		"lib/SourceQuery/Socket.php",
+		"lib/SourceQuery/SourceQuery.php",
+		"lib/SourceQuery/SourceRcon.php",
+		"lib/SourceQuery/bootstrap.php",
+		"lib/modules/monitoring/class.php",
+		"lib/modules/monitoring/info.json",
+		"public/js/monitoring.js",
+		"public/temps/default/css/monitoring.css",
+		"request/monitoring.php",
+		"temps/default/blocks/monitoring/block.aptpl",
+		"temps/default/blocks/monitoring/info.json"
+	]
 }
