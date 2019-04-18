@@ -1,0 +1,6 @@
+{
+	"name": "Мониторинг серверов",
+	"module": "monitoring",
+	"allowRightCol": false,
+	"allowHomePage": true
+}

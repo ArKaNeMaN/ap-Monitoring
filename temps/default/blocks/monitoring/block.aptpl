@@ -1,0 +1,23 @@
+<?php if($this->isModuleActive('monitoring')):?>
+	<div id="monitorModal"></div>
+	<link href="<?php echo PANEL_HOME.$this->getTplThemePath('public/temps', '/css/monitoring.css');?>" rel="stylesheet" />
+	<script src="<?php echo PANEL_HOME?>/public/js/monitoring.js" defer></script>
+	<div class="blockCont">
+		<div class="blockHead">Мониторинг <i title="Обновиь список серверов" class="fa fa-sync-alt" onclick="reloadServers(); return false;" style="cursor: pointer;"></i></div>
+		<div class="blockBody">
+			<table class="monitorTable">
+				<thead>
+					<th>Игра</th>
+					<th>Название</th>
+					<th>Адрес</th>
+					<th>Карта</th>
+					<th>Онлайн</th>
+				</thead>
+				<tbody id="monitorServersList">
+					<tr><td colspan="5" style="height: 80px;"></td></tr>
+				</tbody>
+			</table>
+			<progress class="monitorProgBar" id="monitorTotalOnlineBar" style="width: 100%; margin-top: 10px;" value="1" max="1"></progress>
+		</div>
+	</div>
+<?php endif;?>
